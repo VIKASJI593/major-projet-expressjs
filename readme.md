@@ -10,15 +10,15 @@ http://localhost:8000/practice
 
 git init
 
-git branch -M master
+git branch -M 1-controller
 
 git add .
 
-git commit -m "master"
+git commit -m "controller"
 
-git push -u origin master
+git push -u origin 1-controller
 
-git push -f -u origin master
+git push -f -u origin 1-controller
 
 git branch
 
