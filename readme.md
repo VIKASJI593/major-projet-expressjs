@@ -7,6 +7,8 @@ app.set('layout extractScripts', true);
 <%- style %>
 <%- script %>
 
+npm install mongoose
+
 nodemon index.js
 npm start
 
@@ -19,15 +21,15 @@ http://localhost:8000/users/profile
 
 git init
 
-git branch -M 6-static-style-script
+git branch -M 7-link-mongo
 
 git add .
 
 git commit -m "controller"
 
-git push -u origin 6-static-style-script
+git push -u origin 7-link-mongo
 
-git push -f -u origin 6-static-style-script
+git push -f -u origin 7-link-mongo
 
 git branch
 
