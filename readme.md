@@ -1,28 +1,24 @@
 nodemon index.js
 npm start
 
+npm install express-ejs-layouts
+
 http://localhost:8000/
 http://localhost:8000/users/profile
-
-//nodemon powershell wala delete kr de nodemon file se
-
-http://localhost:8000/
-
-http://localhost:8000/practice
 
 // create a new repository 
 
 git init
 
-git branch -M 4-partials-ejs
+git branch -M 5-static
 
 git add .
 
 git commit -m "controller"
 
-git push -u origin 4-partials-ejs
+git push -u origin 5-static
 
-git push -f -u origin 4-partials-ejs
+git push -f -u origin 5-static
 
 git branch
 
