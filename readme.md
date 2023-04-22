@@ -1,4 +1,8 @@
 nodemon index.js
+npm start
+
+http://localhost:8000/
+http://localhost:8000/users/profile
 
 //nodemon powershell wala delete kr de nodemon file se
 
@@ -10,15 +14,15 @@ http://localhost:8000/practice
 
 git init
 
-git branch -M 3-models-ejs
+git branch -M 4-partials-ejs
 
 git add .
 
 git commit -m "controller"
 
-git push -u origin 3-models-ejs
+git push -u origin 4-partials-ejs
 
-git push -f -u origin 3-models-ejs
+git push -f -u origin 4-partials-ejs
 
 git branch
 
