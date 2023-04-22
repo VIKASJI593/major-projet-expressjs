@@ -10,15 +10,15 @@ http://localhost:8000/practice
 
 git init
 
-git branch -M 2-vikascontroller
+git branch -M 3-models-ejs
 
 git add .
 
 git commit -m "controller"
 
-git push -u origin 2-vikascontroller
+git push -u origin 3-models-ejs
 
-git push -f -u origin 2-vikascontroller
+git push -f -u origin 3-models-ejs
 
 git branch
 

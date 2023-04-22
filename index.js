@@ -6,6 +6,10 @@ const port = 8000;
 // use express router
 app.use("/", require("./routes"));
 
+// setup the template enginge to use
+app.set("view engine", "ejs");
+app.set('views', './views')
+
 //http://localhost:8000/users/profile
 
 app.listen(port, function (err) {
