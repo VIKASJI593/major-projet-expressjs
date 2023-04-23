@@ -2,7 +2,7 @@ for cookie inspect=>application=>cookie cookie ke down arrow pr click kre vacant
 
 npm install cookie-parser
 
-npm install mongoose
+npm install mongoose@6.7.3
 
 nodemon index.js
 npm start
@@ -17,15 +17,15 @@ http://localhost:8000/users/sign-up
 
 git init
 
-git branch -M 8-cookie
+git branch -M 9-cookie-parser
 
 git add .
 
 git commit -m "controller"
 
-git push -u origin 8-cookie
+git push -u origin 9-cookie-parser
 
-git push -f -u origin 8-cookie
+git push -f -u origin 9-cookie-parser
 
 git branch
 
