@@ -1,4 +1,4 @@
-
+for cookie inspect=>application=>cookie cookie ke down arrow pr click kre vacant area me enter press krne par name likhe
 
 npm install cookie-parser
 
