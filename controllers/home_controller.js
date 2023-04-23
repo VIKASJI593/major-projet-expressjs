@@ -1,7 +1,7 @@
 //-------------1st step-----------------------
 //step1 here we import home.ejs file
 module.exports.home = function (req, res) {
- //print cookie on node
+ //print cookie on node 
   console.log(req.cookies);
   //change or make cookie
   res.cookie('userid',25)
