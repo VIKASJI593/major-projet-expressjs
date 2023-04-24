@@ -1,5 +1,7 @@
-for cookie inspect=>application=>cookie cookie ke down arrow pr click kre vacant area me enter press krne par name likhe
-
+npm install connect-mongo
+npm i express-session
+npm install passport-local
+npm install passport
 npm install cookie-parser
 npm install mongoose@7.0.4
 npm install mongoose@6.7.3
@@ -12,20 +14,21 @@ npm install express-ejs-layouts
 http://localhost:8000/
 http://localhost:8000/users/sign-in
 http://localhost:8000/users/sign-up
+http://localhost:8000/users/profile
 
 // create a new repository 
 
 git init
 
-git branch -M 10-sign-up
+git branch -M 11-passport
 
 git add .
 
 git commit -m "controller"
 
-git push -u origin 10-sign-up
+git push -u origin 11-passport
 
-git push -f -u origin 10-sign-up
+git push -f -u origin 11-passport
 
 git branch
 
