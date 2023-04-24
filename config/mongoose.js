@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/passport-project')
+mongoose.connect('mongodb://127.0.0.1:27017/passport12-project')
 //mongoose.connect('mongodb://localhost/major-project_development');
 
 const db = mongoose.connection;
