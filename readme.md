@@ -1,3 +1,5 @@
+
+npm install connect-flash
 npm run sass-watch
 npm install connect-mongo
 npm i express-session
@@ -24,6 +26,9 @@ npm install sass
 //run in another node
 npm run sass-watch
 
+
+flash message use session cookies
+
 http://localhost:8000/
 http://localhost:8000/users/sign-in
 http://localhost:8000/users/sign-up
@@ -33,15 +38,15 @@ http://localhost:8000/users/profile
 
 git init
 
-git branch -M 12-comment-post-update-delete
+git branch -M 13-async-await-flash-noty
 
 git add .
 
-git commit -m "sass"
+git commit -m "async-await"
 
-git push -u origin 12-comment-post-update-delete
+git push -u origin 13-async-await-flash-noty
 
-git push -f -u origin 12-comment-post-update-delete
+git push -f -u origin 13-async-await-flash-noty
 
 git branch
 
