@@ -1,0 +1,28 @@
+header {
+  background-color: dodgerblue;
+  color: white;
+  height: 2.5vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header #left {
+  margin-left: 0.5vw;
+  font-weight: bold;
+  font-size: 1.9vw;
+}
+header #right {
+  display: flex;
+  gap: 0.75rem;
+  list-style-type: none;
+  margin-right: 0.5vw;
+  font-size: 1.4vw;
+}
+header #right a {
+  text-decoration: none;
+}

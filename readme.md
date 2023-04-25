@@ -1,3 +1,4 @@
+npm run sass-watch
 npm install connect-mongo
 npm i express-session
 npm install passport-local
@@ -11,12 +12,24 @@ npm start
 
 npm install express-ejs-layouts
 
+//-------------------------sass--------------------
+npm install sass
+//package.json me change
+"scripts": {
+"start": "nodemon index.js",
+"test": "echo \"Error: no test specified\" && exit 1",
+"sass-watch": "sass --no-source-map --watch assets/scss/:assets/css/"
+},
+
+//run in another node
+npm run sass-watch
+
 http://localhost:8000/
 http://localhost:8000/users/sign-in
 http://localhost:8000/users/sign-up
 http://localhost:8000/users/profile
 
-// create a new repository 
+// create a new repository
 
 git init
 
@@ -24,7 +37,7 @@ git branch -M 12-comment-post-update-delete
 
 git add .
 
-git commit -m "controller"
+git commit -m "sass"
 
 git push -u origin 12-comment-post-update-delete
 
@@ -35,5 +48,3 @@ git branch
 git remote add origin https://github.com/VIKASJI593/major-projet-expressjs.git
 
 git remote -v
-
-
