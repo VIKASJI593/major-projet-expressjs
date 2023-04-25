@@ -20,15 +20,15 @@ http://localhost:8000/users/profile
 
 git init
 
-git branch -M 11-passport
+git branch -M 12-comment-post-update-delete
 
 git add .
 
 git commit -m "controller"
 
-git push -u origin 11-passport
+git push -u origin 12-comment-post-update-delete
 
-git push -f -u origin 11-passport
+git push -f -u origin 12-comment-post-update-delete
 
 git branch
 
