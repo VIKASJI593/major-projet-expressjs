@@ -38,15 +38,15 @@ http://localhost:8000/users/profile
 
 git init
 
-git branch -M 13-async-await-flash-noty
+git branch -M 14-ajax
 
 git add .
 
 git commit -m "async-await"
 
-git push -u origin 13-async-await-flash-noty
+git push -u origin 14-ajax
 
-git push -f -u origin 13-async-await-flash-noty
+git push -f -u origin 14-ajax
 
 git branch
 
