@@ -1,4 +1,5 @@
 
+npm install multer
 npm install connect-flash
 npm run sass-watch
 npm install connect-mongo
@@ -11,6 +12,7 @@ npm install mongoose@6.7.3
 
 nodemon index.js
 npm start
+//\uploads\\users\\avatars\\avatar
 
 npm install express-ejs-layouts
 
@@ -29,6 +31,8 @@ npm run sass-watch
 
 flash message use session cookies
 
+file upload krne ke lie agr koi file nhi rhega
+
 http://localhost:8000/
 http://localhost:8000/users/sign-in
 http://localhost:8000/users/sign-up
@@ -38,15 +42,15 @@ http://localhost:8000/users/profile
 
 git init
 
-git branch -M 13-async-await-flash-noty
+git branch -M 15-file-upload
 
 git add .
 
 git commit -m "async-await"
 
-git push -u origin 13-async-await-flash-noty
+git push -u origin 15-file-upload
 
-git push -f -u origin 13-async-await-flash-noty
+git push -f -u origin 15-file-upload
 
 git branch
 
