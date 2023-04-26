@@ -2,6 +2,10 @@ body {
   margin: 0;
   /* text-align: center; */
 }
-body #layout-main {
-  height: 100%;
+body #layout-footer {
+  border: 2px solid red;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 100px;
 }
