@@ -1,4 +1,6 @@
 
+npm install jsonwebtoken
+npm install passport-jwt
 npm install multer
 npm install connect-flash
 npm run sass-watch
@@ -37,20 +39,27 @@ http://localhost:8000/
 http://localhost:8000/users/sign-in
 http://localhost:8000/users/sign-up
 http://localhost:8000/users/profile
+http://localhost:8000/api/v1/posts
+
+http://localhost:8000/api/v1/users/create-session
+
+http://localhost:8000/api/v1/posts/?Authorization=bearer
+
+
 
 // create a new repository
 
 git init
 
-git branch -M 15-file-upload
+git branch -M 16-api-jwt
 
 git add .
 
 git commit -m "async-await"
 
-git push -u origin 15-file-upload
+git push -u origin 16-api-jwt
 
-git push -f -u origin 15-file-upload
+git push -f -u origin 16-api-jwt
 
 git branch
 
