@@ -1,4 +1,13 @@
+// client secret
+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
 
+// client id
+892394741357-eo47imfiarf3sgjr563cufpbu1jdnhun.apps.googleusercontent.com
+
+
+npm install crypto
+npm install passport-google-oauth
+https://console.developers.google.com/
 npm install jsonwebtoken
 npm install passport-jwt
 npm install multer
@@ -51,15 +60,15 @@ http://localhost:8000/api/v1/posts/?Authorization=bearer
 
 git init
 
-git branch -M 16-api-jwt
+git branch -M 17-google/social-auth
 
 git add .
 
-git commit -m "async-await"
+git commit -m "google-auth"
 
-git push -u origin 16-api-jwt
+git push -u origin 17-google/social-auth
 
-git push -f -u origin 16-api-jwt
+git push -f -u origin 17-google/social-auth
 
 git branch
 
