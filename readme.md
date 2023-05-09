@@ -62,15 +62,15 @@ http://localhost:8000/api/v1/posts/?Authorization=bearer
 
 git init
 
-git branch -M 18-job-mailer
+git branch -M 19-mailer-template
 
 git add .
 
 git commit -m "job-mailer"
 
-git push -u origin 18-job-mailer
+git push -u origin 19-mailer-template
 
-git push -f -u origin 18-job-mailer
+git push -f -u origin 19-mailer-template
 
 git branch
 
