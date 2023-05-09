@@ -1,3 +1,5 @@
+//---for nodemailer first mail go to google-account and in search box search app password then create password--///
+
 // client secret
 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
 
