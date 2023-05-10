@@ -21,6 +21,8 @@ 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
 // client id
 892394741357-eo47imfiarf3sgjr563cufpbu1jdnhun.apps.googleusercontent.com
 
+
+npm install kue
 npm install nodemailer
 npm install crypto
 npm install passport-google-oauth
