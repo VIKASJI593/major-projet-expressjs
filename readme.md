@@ -1,3 +1,18 @@
+
+//------------------------------------REDIS SERVER AND CLI--------------------------------
+
+//-----check redis is running or not => redis-cli ping
+if output is pong then it is running
+step 1 https://github.com/MicrosoftArchive/redis/releases download zip file and  right click choose option extract to Redis-x64-3.0.504 in c folder anywhere
+step-2 aad path into environment variable
+step-3 (vs code terminal) => cd C:\Redis-x64-3.0.504
+step-4 => redis-server
+step-5 => add new terminal
+cd C:\Redis-x64-3.0.504
+redis-cli ping
+step-5 => redis-cli
+ping
+
 //---for nodemailer first mail go to google-account and in search box search app password then create password--///
 
 // client secret
@@ -46,6 +61,7 @@ flash message use session cookies
 
 file upload krne ke lie agr koi file nhi rhega
 
+
 http://localhost:8000/
 http://localhost:8000/users/sign-in
 http://localhost:8000/users/sign-up
@@ -62,15 +78,15 @@ http://localhost:8000/api/v1/posts/?Authorization=bearer
 
 git init
 
-git branch -M 19-mailer-template
+git branch -M 20-delayed-jobs
 
 git add .
 
 git commit -m "job-mailer"
 
-git push -u origin 19-mailer-template
+git push -u origin 20-delayed-jobs
 
-git push -f -u origin 19-mailer-template
+git push -f -u origin 20-delayed-jobs
 
 git branch
 
