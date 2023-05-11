@@ -80,15 +80,15 @@ http://localhost:8000/api/v1/posts/?Authorization=bearer
 
 git init
 
-git branch -M 20-delayed-jobs
+git branch -M 21-friends-likes
 
 git add .
 
-git commit -m "job-mailer"
+git commit -m "friends-likes"
 
-git push -u origin 20-delayed-jobs
+git push -u origin 21-friends-likes
 
-git push -f -u origin 20-delayed-jobs
+git push -f -u origin 21-friends-likes
 
 git branch
 

@@ -22,11 +22,17 @@ const userSchema = new mongoose.Schema(
     avatar: {
       type: String,
     },
-  },
-  {
-    timestamps: true,
-  }
-);
+    friendships: [
+        { 
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Friendship' 
+        }
+    ]
+
+}, {
+    timestamps: true
+});
+
 
 let storage = multer.diskStorage({
   destination: function (req, file, cb) {
