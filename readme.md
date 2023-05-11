@@ -21,7 +21,7 @@ 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
 // client id
 892394741357-eo47imfiarf3sgjr563cufpbu1jdnhun.apps.googleusercontent.com
 
-
+npm install socket.io
 npm install kue
 npm install nodemailer
 npm install crypto
@@ -80,15 +80,15 @@ http://localhost:8000/api/v1/posts/?Authorization=bearer
 
 git init
 
-git branch -M 21-friends-likes
+git branch -M 22-chatting-engine-socket
 
 git add .
 
-git commit -m "friends-likes"
+git commit -m "socket-io"
 
-git push -u origin 21-friends-likes
+git push -u origin 22-chatting-engine-socket
 
-git push -f -u origin 21-friends-likes
+git push -f -u origin 22-chatting-engine-socket
 
 git branch
 
